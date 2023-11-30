@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Q&A Web App</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <h1>Q&A Web App</h1>
+
+  <!-- Registration form -->
+  <form id="registrationForm">
+    <label for="username">Enter your name:</label>
+    <input type="text" id="username" name="username" required>
+    <button type="button" onclick="registerUser()">Register</button>
+  </form>
+
+  <!-- Q&A form -->
+  <form id="qnaForm" style="display: none;">
+    <label for="question">Ask a Question:</label>
+    <textarea id="question" name="question" rows="4" cols="50" required></textarea>
+    <button type="button" onclick="submitQuestion()">Submit</button>
+  </form>
+
+  <div id="qnaContainer"></div>
+
+  <button onclick="exportQuestions()">Export Answered Questions</button>
+
+  <script src="scripts.js"></script>
+</body>
+</html>

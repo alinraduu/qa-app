@@ -1,0 +1,35 @@
+body {
+  font-family: Arial, sans-serif;
+  text-align: center;
+  margin: 20px;
+}
+
+form {
+  margin-top: 20px;
+}
+
+textarea {
+  width: 100%;
+}
+
+button {
+  margin-top: 10px;
+}
+
+#qnaContainer {
+  margin-top: 20px;
+  text-align: left;
+}
+
+.answered {
+  color: green;
+}
+
+/* Add some styling for the registration form */
+#registrationForm {
+  margin-top: 20px;
+}
+
+#qnaForm {
+  display: none; /* Hide the Q&A form initially */
+}
